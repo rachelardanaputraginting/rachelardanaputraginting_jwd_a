@@ -47,7 +47,7 @@ $message = isset($_GET['message']) ? $_GET['message'] : "";
         <h4>Daftar Mahasiswa</h4>
     </div>
     <div class="row justify-content-between align-items-center">
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addMahasiswaModal">Tambah</button>
         </div>
         <div class="col-md-4">
