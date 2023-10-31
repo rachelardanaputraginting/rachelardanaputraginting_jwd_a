@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <div class="col-md-5 mt-5">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="text-center my-3">Silahkan Masuk</h5>
+                        <h5 class="text-center my-3">Login Page</h5>
                         <?php if (isset($error_message)) : ?>
                             <div class="alert alert-danger my-4"><?php echo $error_message; ?></div>
                         <?php endif; ?>
